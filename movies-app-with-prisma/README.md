@@ -49,7 +49,7 @@ movies-app-with-prisma/
 
 ### Prerequisites
 - Node.js 18+ 
-- npm or yarn package manager
+- npm  package manager
 
 ### Installation
 
