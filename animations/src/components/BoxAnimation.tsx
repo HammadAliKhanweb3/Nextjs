@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Lottie from 'lottie-react'
+import Image from 'next/image'
 import boxAnimation from "../animations/box.json"
 
 type ComponentProps={
@@ -19,7 +20,7 @@ const BoxAnimation = ({handleSubmit}:ComponentProps) => {
     }}
       
       className='w-64 h-64 bg-red-400 rounded-3xl cursor-pointer'>
-      <img src="image.png" alt="image" />
+      <Image src="image.png" alt="image" />
       
     </button> )
       : (

@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import * as motion from "motion/react-client"
 import { useRouter } from 'next/navigation'
 import BoxAnimation from '@/components/BoxAnimation'
 
@@ -13,7 +12,7 @@ const router = useRouter()
 const handleSubmit = () =>{
   setTimeout(()=>{
   router.push("/safa-magic")
-  },50)
+  },1000)
 }
 
   return (
