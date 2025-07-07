@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.body{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box{
+  height: 200px;
+  width:200px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+
+}
